@@ -19,20 +19,20 @@ const StatsCard = () => {
           </p>
         </div>
 
-        <div className="stats-container">
-          <div className="stat">
-            <p>10k+</p>
-            <p>COMPANIES</p>
+        <div className={`${styles.stats_container}`}>
+          <div className={`${styles.stat}`}>
+            <p className={`${styles.figure}`}>10k+</p>
+            <p className={`${styles.stat_name}`}>COMPANIES</p>
           </div>
 
-          <div className="stat">
-            <p>314</p>
-            <p>TEMPLATES</p>
+          <div className={`${styles.stat}`}>
+            <p className={`${styles.figure}`}>314</p>
+            <p className={`${styles.stat_name}`}>TEMPLATES</p>
           </div>
 
-          <div className="stat">
-            <p>10k+</p>
-            <p>QUERIES</p>
+          <div className={`${styles.stat}`}>
+            <p className={`${styles.figure}`}>10k+</p>
+            <p className={`${styles.stat_name}`}>QUERIES</p>
           </div>
         </div>
       </div>
