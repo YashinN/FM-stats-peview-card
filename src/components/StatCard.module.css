@@ -6,6 +6,20 @@
   background-color: #1b1937;
 }
 
+.stats_content {
+  padding: 95px;
+}
+
 .stats_card.stats_content {
   order: 2;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.title span {
+  color: #ab5cdb;
 }
