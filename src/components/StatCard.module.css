@@ -8,11 +8,20 @@
 
 .stats_content {
   padding: 80px;
+  order: 1;
 }
 
-.stats_card.stats_content {
+.stats_content {
+  order: 1;
+}
+
+.img_main {
   order: 2;
 }
+
+/* .stats_card.img_main {
+  order: 2;
+} */
 
 .title {
   font-family: "Inter", sans-serif;

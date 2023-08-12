@@ -31,7 +31,7 @@ const StatsCard = () => {
           </div>
 
           <div className={`${styles.stat}`}>
-            <p className={`${styles.figure}`}>10k+</p>
+            <p className={`${styles.figure}`}>12M+</p>
             <p className={`${styles.stat_name}`}>QUERIES</p>
           </div>
         </div>
