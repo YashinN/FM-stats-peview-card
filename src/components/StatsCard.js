@@ -3,11 +3,15 @@ import styles from "./StatCard.module.css";
 const StatsCard = () => {
   return (
     <div className={`${styles.stats_card} `}>
-      <img
-        className={`${styles.img_main}`}
-        src="/images/image-header-desktop.jpg"
-        alt="people working"
-      />
+      <div className={`${styles.img_container}`}>
+        <div className={`${styles.img_overlay}`}></div>
+        <img
+          className={`${styles.img_main}`}
+          src="/images/image-header-desktop.jpg"
+          alt="people working"
+        />
+      </div>
+
       <div className={`${styles.stats_content}`}>
         <div className={`${styles.stats_header}`}>
           <h1 className={styles.title}>
