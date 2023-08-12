@@ -9,11 +9,11 @@ const StatsCard = () => {
         alt="people working"
       />
       <div className={`${styles.stats_content}`}>
-        <div className="stats-header">
+        <div className={`${styles.stats_header}`}>
           <h1 className={styles.title}>
             Get <span>insights</span> that help your business grow.
           </h1>
-          <p>
+          <p className={`${styles.description}`}>
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>

@@ -7,7 +7,7 @@
 }
 
 .stats_content {
-  padding: 95px;
+  padding: 80px;
 }
 
 .stats_card.stats_content {
@@ -18,8 +18,23 @@
   font-family: "Inter", sans-serif;
   font-size: 36px;
   margin-bottom: 25px;
+  font-weight: 700;
 }
 
 .title span {
   color: #ab5cdb;
+}
+
+.description {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.3rem;
+  max-width: 374px;
+}
+
+.stats_header {
+  margin-bottom: 72px;
+  max-width: 403px;
 }
