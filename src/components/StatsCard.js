@@ -1,8 +1,10 @@
+import styles from "./StatCard.module.css";
+
 const StatsCard = () => {
   return (
-    <div className="stats-card">
-      <img src="/images/image-header-desktop.jpg" alt="people working" />
-      <div className="stats-content">
+    <div className={`${styles.stats_card} `}>
+      <img className = {`${styles.img_main}`} src="/images/image-header-desktop.jpg" alt="people working" />
+      <div className={`${styles.stats_content}`}>
         <div className="stats-header">
           <h1>
             Get <span>insights</span> that help your business grow.

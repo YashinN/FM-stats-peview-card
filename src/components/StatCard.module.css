@@ -1,0 +1,11 @@
+.stats_card {
+  display: flex;
+  max-height: 540px;
+  max-width: 1110px;
+  border-radius: 8px;
+  background-color: #1b1937;
+}
+
+.stats_card.stats_content {
+  order: 2;
+}
