@@ -5,11 +5,17 @@ const StatsCard = () => {
     <div className={`${styles.stats_card} `}>
       <div className={`${styles.img_container}`}>
         <div className={`${styles.img_overlay}`}></div>
-        <img
-          className={`${styles.img_main}`}
-          src="/images/image-header-desktop.jpg"
-          alt="people working"
-        />
+        <picture>
+          <source
+            srcset="(min-width:600px)"
+            srcSet="/images/image-header-mobile.jpg"
+          />
+          <img
+            className={`${styles.img_main}`}
+            src="/images/image-header-desktop.jpg"
+            alt="people working"
+          />
+        </picture>
       </div>
 
       <div className={`${styles.stats_content}`}>

@@ -14,4 +14,5 @@ body {
   height: 100vh;
   background-color: hsl(233, 47%, 7%);
   color: #fff;
+  padding: 30px 20px;
 }
